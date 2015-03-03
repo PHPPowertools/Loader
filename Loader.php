@@ -91,6 +91,7 @@
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  */
+defined('PRODUCTION') or define('PRODUCTION', false);
 
 class Loader {
 
